@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: PLACEHOLDER_FRONTEND_IMAGE
+          image: 322650754939.dkr.ecr.us-east-1.amazonaws.com/faustina-frontend:latest
           ports:
             - containerPort: 80
           env:

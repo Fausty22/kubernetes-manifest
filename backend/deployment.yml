@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: PLACEHOLDER_BACKEND_IMAGE
+          image: 322650754939.dkr.ecr.us-east-1.amazonaws.com/faustina-backend:latest
           ports:
             - containerPort: 5000
           envFrom:
